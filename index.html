@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Naughty Privacy Browser — legal information, privacy policy and terms &amp; conditions.">
+<title>Naughty Privacy Browser — Legal</title>
+<style>
+    :root {
+        --bg: #0e0f13;
+        --card: #171922;
+        --text: #e8e9ee;
+        --muted: #9aa0ae;
+        --accent: #8b7cf6;
+        --border: #262a38;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        text-align: center;
+        padding: 72px 24px 40px;
+    }
+    .lock-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #6d5df0, #a855f7);
+        font-size: 34px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 40px rgba(139, 124, 246, 0.35);
+    }
+    h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 10px; max-width: 520px; margin-left: auto; margin-right: auto; }
+    main {
+        flex: 1;
+        width: 100%;
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 0 24px 64px;
+    }
+    .cards { display: grid; gap: 16px; margin-top: 16px; }
+    .card {
+        display: block;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px 28px;
+        text-decoration: none;
+        color: var(--text);
+        transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .card h2 { font-size: 1.15rem; margin-bottom: 6px; }
+    .card p { color: var(--muted); font-size: 0.95rem; }
+    .card .arrow { float: right; color: var(--accent); font-size: 1.3rem; }
+    .highlights {
+        margin-top: 40px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px 28px;
+    }
+    .highlights h3 { font-size: 1rem; margin-bottom: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; }
+    .highlights ul { list-style: none; }
+    .highlights li { padding: 6px 0; color: var(--muted); font-size: 0.95rem; }
+    .highlights li::before { content: "✓  "; color: var(--accent); font-weight: 700; }
+    footer {
+        text-align: center;
+        padding: 28px 24px 40px;
+        color: var(--muted);
+        font-size: 0.85rem;
+        border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+    <div class="lock-badge">🔒</div>
+    <h1>Naughty Privacy Browser</h1>
+    <p>A PIN-locked private browser for iOS. Everything stays on your device — no accounts, no tracking, no data collection.</p>
+</header>
+
+<main>
+    <div class="cards">
+        <a class="card" href="privacy.html">
+            <span class="arrow">→</span>
+            <h2>Privacy Policy</h2>
+            <p>What the app stores on your device, what we collect (nothing), and how third-party sites and in-app purchases are handled.</p>
+        </a>
+        <a class="card" href="terms.html">
+            <span class="arrow">→</span>
+            <h2>Terms &amp; Conditions</h2>
+            <p>The rules for using the app, subscription terms, disclaimers and limitations of liability.</p>
+        </a>
+    </div>
+
+    <div class="highlights">
+        <h3>Privacy at a glance</h3>
+        <ul>
+            <li>No analytics, no tracking, no ads by us</li>
+            <li>No account, no sign-up, no cloud sync</li>
+            <li>History, bookmarks and downloads never leave your device</li>
+            <li>Your PIN is never stored or transmitted anywhere</li>
+            <li>Payments handled entirely by Apple — we never see them</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>Contact: <a href="mailto:pulsarsandpulsar@gmail.com">pulsarsandpulsar@gmail.com</a></p>
+</footer>
+</body>
+</html>
