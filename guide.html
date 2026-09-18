@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0c">
+<title>User Guide — Pin Lock Private Browser</title>
+<meta name="description" content="How to use Pin Lock Private Browser: PIN setup, the decoy session, downloads, privacy controls and Pro features.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icon-16.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="assets/styles.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pin Lock Private Browser">
+<meta property="og:title" content="User Guide — Pin Lock Private Browser">
+<meta property="og:description" content="How to use Pin Lock Private Browser: PIN setup, the decoy session, downloads, privacy controls and Pro features.">
+<meta property="og:image" content="https://pulsarsandpulsar-stack.github.io/Pin-Lock-Private-Browser/assets/icon-256.png">
+<meta property="og:url" content="https://pulsarsandpulsar-stack.github.io/Pin-Lock-Private-Browser/guide.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pulsarsandpulsar-stack.github.io/Pin-Lock-Private-Browser/assets/icon-256.png">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html">
+            <img src="assets/icon-32.png" alt="">
+            <span>Pin Lock Private Browser</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="guide.html" aria-current="page">Guide</a>
+        </nav>
+    </div>
+</header>
+
+<div class="quickstart">
+    <div class="quickstart-head">
+        <h1>User Guide</h1>
+        <p>The whole app in six lines. Tap "Full guide" below only if you want more.</p>
+    </div>
+
+    <div class="quickstart-grid">
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6" cy="6" r="1.7"/><circle cx="12" cy="6" r="1.7"/><circle cx="18" cy="6" r="1.7"/><circle cx="6" cy="13" r="1.7"/><circle cx="12" cy="13" r="1.7"/><circle cx="18" cy="13" r="1.7"/><rect x="9" y="18" width="6" height="4" rx="1"/></svg>
+            </div>
+            <h3>Set your PIN</h3>
+            <p>4–12 digits. No recovery, ever — remember it.</p>
+        </div>
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11c3-4.5 15-4.5 18 0-1 5.5-6 8.5-9 8.5S4 16.5 3 11z"/><circle cx="9" cy="11.3" r="1.3" fill="currentColor" stroke="none"/><circle cx="15" cy="11.3" r="1.3" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <h3>Wrong PIN? No problem</h3>
+            <p>Opens a fresh, empty decoy session — never an error.</p>
+        </div>
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg>
+            </div>
+            <h3>Grab video</h3>
+            <p>Tap the download arrow in the address bar, pick a quality.</p>
+        </div>
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg>
+            </div>
+            <h3>Ads &amp; trackers blocked</h3>
+            <p>On by default. No setup needed.</p>
+        </div>
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg>
+            </div>
+            <h3>Wipe it anytime</h3>
+            <p>"Delete Everything" clears data, keeps your PIN.</p>
+        </div>
+        <div class="qs-card">
+            <div class="qs-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6 6.6.6-5 4.4 1.5 6.5L12 16.7 6 20l1.5-6.5-5-4.4 6.6-.6z"/></svg>
+            </div>
+            <h3>Go Pro</h3>
+            <p>Find in Page &amp; Save as PDF, from $0.99/mo.</p>
+        </div>
+    </div>
+
+    <p class="guide-more">Want the details behind any of this? ↓</p>
+</div>
+
+<div class="accordion">
+    <div class="accordion-controls">
+        <button type="button" id="acc-expand-all">Expand all</button>
+        <button type="button" id="acc-collapse-all">Collapse all</button>
+    </div>
+
+    <details class="acc-item" id="s1">
+        <summary>Getting started<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>On first launch, create a PIN (4–12 digits) on the on-screen keypad and confirm it. You'll see a one-time warning: <strong>there is no PIN recovery.</strong></p>
+            <p>After that, the same PIN screen decides what you see:</p>
+            <ul>
+                <li>Correct PIN → your real session, exactly as you left it.</li>
+                <li>Any other PIN → a brand-new empty session, no error shown.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s2">
+        <summary>Tabs &amp; navigating<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>The address bar doubles as a search box. Icons around it: a lock/magnifying-glass for connection security, a star to bookmark, and a download arrow that lights up when video is found on the page.</p>
+            <p>The bottom toolbar has back/forward, a <strong>+</strong> for a new tab, and a numbered square that opens the tab overview.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s3">
+        <summary>Bookmarks &amp; history<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>Open the <strong>•••</strong> menu for Bookmarks and History. A blank tab also shows a speed-dial grid of your bookmarks.</p>
+            <p>Both belong to your real session only — the decoy session never records any.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s4">
+        <summary>The decoy session, explained<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>It's a privacy safety net: if someone asks to look through your phone, entering any PIN other than your real one opens a completely fresh, empty browser instead of an error.</p>
+            <ul>
+                <li><strong>Telling them apart:</strong> the lock icon (bottom-right of the toolbar) is green in your real session, red in a decoy.</li>
+                <li><strong>Nothing carries over:</strong> decoy activity disappears the moment you lock the app again — it can't be merged into your real session.</li>
+                <li><strong>Best-effort only:</strong> this hides activity from casual inspection, not from a determined technical or forensic search. See Terms §8.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s5">
+        <summary>Downloads &amp; the video grabber<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>Tap the address-bar download icon to see video found on the page. The first time, you'll see a one-time reminder: only save video you own or have permission to keep — you're responsible for copyright and each site's terms.</p>
+            <ul>
+                <li>Direct files download in one tap; HLS streams let you pick a quality first.</li>
+                <li>Supported downloads can be paused and resumed.</li>
+                <li>Everything lands in <strong>••• → Downloads</strong>: play in-app, export via the share icon, or delete.</li>
+            </ul>
+            <p>Files stay in the app's private storage, never your Photos library, until you export them. Streaming sites with DRM-protected players are deliberately not supported.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s6">
+        <summary>Privacy &amp; content controls<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p><strong>••• → Settings</strong> covers:</p>
+            <ul>
+                <li><strong>Auto-lock</strong> — 1, 3, 5, 10 minutes, or Never.</li>
+                <li><strong>Floating lock button</strong> — an optional draggable button that locks instantly on tap.</li>
+                <li><strong>Block autoplay</strong> and <strong>block ads &amp; trackers</strong> — on by default.</li>
+                <li><strong>Search engine</strong> — DuckDuckGo, Startpage, Brave Search or Google.</li>
+                <li><strong>Theme</strong> — System, Light or Dark.</li>
+            </ul>
+            <p>Always on, no setting needed: the app hides its content from the iOS app switcher the instant it's backgrounded, and the toolbar lock icon locks the app immediately on tap.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s7">
+        <summary>Managing your data<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <ul>
+                <li><strong>Clear Cache &amp; Cookies</strong> — removes site data (you'll be signed out), keeps history/bookmarks/downloads.</li>
+                <li><strong>Delete Everything</strong> — removes downloads, history, bookmarks, tabs and site data in one step. Your PIN is kept.</li>
+            </ul>
+            <p>Deleting the app itself erases everything permanently, including the PIN.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s8">
+        <summary>Pro features<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <p>An optional subscription (monthly or yearly, billed through the App Store) unlocks <strong>Find in Page</strong> and <strong>Save Page as PDF</strong>. Locked items show a small lock icon in the ••• menu until you subscribe.</p>
+            <p>Manage or cancel any time in your device's App Store settings, or tap <strong>Restore Purchases</strong> in Settings if you subscribed on another device.</p>
+        </div>
+    </details>
+
+    <details class="acc-item" id="s9">
+        <summary>FAQ<span class="acc-plus" aria-hidden="true">+</span></summary>
+        <div class="acc-body">
+            <h4>I forgot my PIN — how do I get back in?</h4>
+            <p>You can't. There's no recovery, backdoor or reset by design. Deleting and reinstalling the app is the only way forward, and it erases everything.</p>
+            <h4>How do I know which session I'm in?</h4>
+            <p>The lock icon in the toolbar: green is real, red is decoy.</p>
+            <h4>Does the app work offline?</h4>
+            <p>No — it's a browser, so it needs a connection to load anything.</p>
+            <h4>Can I recover a deleted download or cleared history?</h4>
+            <p>No. Deletions are immediate and permanent.</p>
+            <h4>Is my browsing completely anonymous?</h4>
+            <p>No. Sites and your network/ISP can still see your requests. The app blocks common ad/tracker domains and runs no analytics of its own, but it isn't a VPN or Tor.</p>
+        </div>
+    </details>
+</div>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <img src="assets/icon-32.png" alt="">
+            <div>
+                <strong>Pin Lock Private Browser</strong>
+                <p>A PIN-locked private browser for iOS.</p>
+            </div>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+            <a href="index.html">Home</a>
+            <a href="guide.html">User Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <a href="mailto:pulsarsandpulsar@gmail.com">Contact</a>
+        </nav>
+    </div>
+    <p class="copyright">© <span id="copyright-year">2026</span> Pin Lock Private Browser. All rights reserved.</p>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
